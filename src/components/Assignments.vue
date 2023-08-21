@@ -43,7 +43,7 @@ export default {
   },
 
   created() {
-    fetch('http://localhost:3000/assignments')
+    fetch('http://localhost:3001/assignments')
       .then((response) => response.json())
       .then((assignments) => {
         this.assignments = assignments
